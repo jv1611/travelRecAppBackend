@@ -6,7 +6,7 @@ table.read(function (context) {
 
 table.insert(function (context) {
     // voorbeeld hieronder straks weghalen
-    context.item.createdAt = DateTime(); // zou moeten werken
+    // context.item.createdAt = DateTime(); // zou moeten werken
     return context.execute();
 });
 
